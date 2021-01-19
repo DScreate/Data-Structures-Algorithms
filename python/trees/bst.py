@@ -67,20 +67,3 @@ class BST:
             if (cur.right is not None):
                 q.put(cur.right)
             print(cur.value)
-
-    def DFSInOrder(self):
-        
-
-
-tree = BST()
-tree.insert(9)
-tree.insert(4)
-tree.insert(6)
-tree.insert(20)
-tree.insert(170)
-tree.insert(15)
-tree.insert(1)
-tree.BFSQ()
-tree.remove(6)
-
-tree.BFSQ()
